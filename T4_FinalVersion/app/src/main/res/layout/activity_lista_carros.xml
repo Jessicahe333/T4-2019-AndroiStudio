@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Lista_Carros">
+
+    <TextView
+        android:id="@+id/textViewListaDeCarros"
+        android:layout_width="338dp"
+        android:layout_height="71dp"
+        android:text="Lista de Carros"
+        android:textSize="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ListView
+        android:id="@+id/listListaCarros"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/textViewListaDeCarros"
+        app:layout_constraintStart_toStartOf="@+id/textViewListaDeCarros"
+        app:layout_constraintTop_toBottomOf="@+id/textViewListaDeCarros" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

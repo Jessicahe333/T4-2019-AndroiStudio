@@ -1,0 +1,135 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:dist="http://schemas.android.com/apk/distribution"
+4    package="com.example.t4"
+5    android:versionCode="1"
+6    android:versionName="1.0" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="21"
+9-->S:\Users\17.00670-8.IMT-NI.010\Documents\T4_FinalVersion\T4v1.1\app\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="29" />
+10-->S:\Users\17.00670-8.IMT-NI.010\Documents\T4_FinalVersion\T4v1.1\app\src\main\AndroidManifest.xml
+11
+12    <!--
+13         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+14         Google Maps Android API v2, but you must specify either coarse or fine
+15         location permissions for the 'MyLocation' functionality.
+16    -->
+17    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+17-->S:\Users\17.00670-8.IMT-NI.010\Documents\T4_FinalVersion\T4v1.1\app\src\main\AndroidManifest.xml:11:5-79
+17-->S:\Users\17.00670-8.IMT-NI.010\Documents\T4_FinalVersion\T4v1.1\app\src\main\AndroidManifest.xml:11:22-76
+18    <uses-permission android:name="android.permission.INTERNET" />
+18-->S:\Users\17.00670-8.IMT-NI.010\Documents\T4_FinalVersion\T4v1.1\app\src\main\AndroidManifest.xml:12:5-67
+18-->S:\Users\17.00670-8.IMT-NI.010\Documents\T4_FinalVersion\T4v1.1\app\src\main\AndroidManifest.xml:12:22-64
+19
+20    <dist:module dist:instant="true" />
+20-->S:\Users\17.00670-8.IMT-NI.010\Documents\T4_FinalVersion\T4v1.1\app\src\main\AndroidManifest.xml:14:5-40
+20-->S:\Users\17.00670-8.IMT-NI.010\Documents\T4_FinalVersion\T4v1.1\app\src\main\AndroidManifest.xml:14:18-37
+21
+22    <!-- Include required permissions for Google Maps API to run. -->
+23    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+23-->[com.google.android.gms:play-services-maps:16.1.0] S:\Users\17.00670-8.IMT-NI.010\.gradle\caches\transforms-2\files-2.1\bb077fd426ce5dafeea7b8a88799f187\jetified-play-services-maps-16.1.0\AndroidManifest.xml:23:5-79
+23-->[com.google.android.gms:play-services-maps:16.1.0] S:\Users\17.00670-8.IMT-NI.010\.gradle\caches\transforms-2\files-2.1\bb077fd426ce5dafeea7b8a88799f187\jetified-play-services-maps-16.1.0\AndroidManifest.xml:23:22-76
+24
+25    <uses-feature
+25-->[com.google.android.gms:play-services-maps:16.1.0] S:\Users\17.00670-8.IMT-NI.010\.gradle\caches\transforms-2\files-2.1\bb077fd426ce5dafeea7b8a88799f187\jetified-play-services-maps-16.1.0\AndroidManifest.xml:26:5-28:35
+26        android:glEsVersion="0x00020000"
+26-->[com.google.android.gms:play-services-maps:16.1.0] S:\Users\17.00670-8.IMT-NI.010\.gradle\caches\transforms-2\files-2.1\bb077fd426ce5dafeea7b8a88799f187\jetified-play-services-maps-16.1.0\AndroidManifest.xml:27:9-41
+27        android:required="true" />
+27-->[com.google.android.gms:play-services-maps:16.1.0] S:\Users\17.00670-8.IMT-NI.010\.gradle\caches\transforms-2\files-2.1\bb077fd426ce5dafeea7b8a88799f187\jetified-play-services-maps-16.1.0\AndroidManifest.xml:28:9-32
+28
+29    <application
+29-->S:\Users\17.00670-8.IMT-NI.010\Documents\T4_FinalVersion\T4v1.1\app\src\main\AndroidManifest.xml:16:5-51:19
+30        android:allowBackup="true"
+30-->S:\Users\17.00670-8.IMT-NI.010\Documents\T4_FinalVersion\T4v1.1\app\src\main\AndroidManifest.xml:17:9-35
+31        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+31-->[androidx.core:core:1.0.1] S:\Users\17.00670-8.IMT-NI.010\.gradle\caches\transforms-2\files-2.1\72b2b92ec4ab73ff21fb9bc348de3b22\core-1.0.1\AndroidManifest.xml:22:18-86
+32        android:debuggable="true"
+33        android:icon="@mipmap/ic_launcher"
+33-->S:\Users\17.00670-8.IMT-NI.010\Documents\T4_FinalVersion\T4v1.1\app\src\main\AndroidManifest.xml:18:9-43
+34        android:label="@string/app_name"
+34-->S:\Users\17.00670-8.IMT-NI.010\Documents\T4_FinalVersion\T4v1.1\app\src\main\AndroidManifest.xml:19:9-41
+35        android:roundIcon="@mipmap/ic_launcher_round"
+35-->S:\Users\17.00670-8.IMT-NI.010\Documents\T4_FinalVersion\T4v1.1\app\src\main\AndroidManifest.xml:20:9-54
+36        android:supportsRtl="true"
+36-->S:\Users\17.00670-8.IMT-NI.010\Documents\T4_FinalVersion\T4v1.1\app\src\main\AndroidManifest.xml:21:9-35
+37        android:theme="@style/AppTheme" >
+37-->S:\Users\17.00670-8.IMT-NI.010\Documents\T4_FinalVersion\T4v1.1\app\src\main\AndroidManifest.xml:22:9-40
+38
+39        <!--
+40             The API key for Google Maps-based APIs is defined as a string resource.
+41             (See the file "res/values/google_maps_api.xml").
+42             Note that the API key is linked to the encryption key used to sign the APK.
+43             You need a different API key for each encryption key, including the release key that is used to
+44             sign the APK for publishing.
+45             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+46        -->
+47        <meta-data
+47-->S:\Users\17.00670-8.IMT-NI.010\Documents\T4_FinalVersion\T4v1.1\app\src\main\AndroidManifest.xml:32:9-34:55
+48            android:name="com.google.android.geo.API_KEY"
+48-->S:\Users\17.00670-8.IMT-NI.010\Documents\T4_FinalVersion\T4v1.1\app\src\main\AndroidManifest.xml:33:13-58
+49            android:value="@string/google_maps_key" />
+49-->S:\Users\17.00670-8.IMT-NI.010\Documents\T4_FinalVersion\T4v1.1\app\src\main\AndroidManifest.xml:34:13-52
+50
+51        <activity
+51-->S:\Users\17.00670-8.IMT-NI.010\Documents\T4_FinalVersion\T4v1.1\app\src\main\AndroidManifest.xml:36:9-38:73
+52            android:name="com.example.t4.MapsTest"
+52-->S:\Users\17.00670-8.IMT-NI.010\Documents\T4_FinalVersion\T4v1.1\app\src\main\AndroidManifest.xml:37:13-37
+53            android:label="@string/title_activity_mpas_test" />
+53-->S:\Users\17.00670-8.IMT-NI.010\Documents\T4_FinalVersion\T4v1.1\app\src\main\AndroidManifest.xml:38:13-61
+54        <activity android:name="com.example.t4.Servico_usuario" />
+54-->S:\Users\17.00670-8.IMT-NI.010\Documents\T4_FinalVersion\T4v1.1\app\src\main\AndroidManifest.xml:39:9-53
+54-->S:\Users\17.00670-8.IMT-NI.010\Documents\T4_FinalVersion\T4v1.1\app\src\main\AndroidManifest.xml:39:19-50
+55        <activity android:name="com.example.t4.Login_Funcionario" />
+55-->S:\Users\17.00670-8.IMT-NI.010\Documents\T4_FinalVersion\T4v1.1\app\src\main\AndroidManifest.xml:40:9-55
+55-->S:\Users\17.00670-8.IMT-NI.010\Documents\T4_FinalVersion\T4v1.1\app\src\main\AndroidManifest.xml:40:19-52
+56        <activity android:name="com.example.t4.Login_Usuario" />
+56-->S:\Users\17.00670-8.IMT-NI.010\Documents\T4_FinalVersion\T4v1.1\app\src\main\AndroidManifest.xml:41:9-51
+56-->S:\Users\17.00670-8.IMT-NI.010\Documents\T4_FinalVersion\T4v1.1\app\src\main\AndroidManifest.xml:41:19-48
+57        <activity android:name="com.example.t4.Lista_Carros" />
+57-->S:\Users\17.00670-8.IMT-NI.010\Documents\T4_FinalVersion\T4v1.1\app\src\main\AndroidManifest.xml:42:9-50
+57-->S:\Users\17.00670-8.IMT-NI.010\Documents\T4_FinalVersion\T4v1.1\app\src\main\AndroidManifest.xml:42:19-47
+58        <activity android:name="com.example.t4.Info_Carro" />
+58-->S:\Users\17.00670-8.IMT-NI.010\Documents\T4_FinalVersion\T4v1.1\app\src\main\AndroidManifest.xml:43:9-48
+58-->S:\Users\17.00670-8.IMT-NI.010\Documents\T4_FinalVersion\T4v1.1\app\src\main\AndroidManifest.xml:43:19-45
+59        <activity android:name="com.example.t4.MainActivity" >
+59-->S:\Users\17.00670-8.IMT-NI.010\Documents\T4_FinalVersion\T4v1.1\app\src\main\AndroidManifest.xml:44:9-50:20
+59-->S:\Users\17.00670-8.IMT-NI.010\Documents\T4_FinalVersion\T4v1.1\app\src\main\AndroidManifest.xml:44:19-47
+60            <intent-filter>
+60-->S:\Users\17.00670-8.IMT-NI.010\Documents\T4_FinalVersion\T4v1.1\app\src\main\AndroidManifest.xml:45:13-49:29
+61                <action android:name="android.intent.action.MAIN" />
+61-->S:\Users\17.00670-8.IMT-NI.010\Documents\T4_FinalVersion\T4v1.1\app\src\main\AndroidManifest.xml:46:17-69
+61-->S:\Users\17.00670-8.IMT-NI.010\Documents\T4_FinalVersion\T4v1.1\app\src\main\AndroidManifest.xml:46:25-66
+62
+63                <category android:name="android.intent.category.LAUNCHER" />
+63-->S:\Users\17.00670-8.IMT-NI.010\Documents\T4_FinalVersion\T4v1.1\app\src\main\AndroidManifest.xml:48:17-77
+63-->S:\Users\17.00670-8.IMT-NI.010\Documents\T4_FinalVersion\T4v1.1\app\src\main\AndroidManifest.xml:48:27-74
+64            </intent-filter>
+65        </activity>
+66        <!-- Needs to be explicitly declared on P+ -->
+67        <uses-library
+67-->[com.google.android.gms:play-services-maps:16.1.0] S:\Users\17.00670-8.IMT-NI.010\.gradle\caches\transforms-2\files-2.1\bb077fd426ce5dafeea7b8a88799f187\jetified-play-services-maps-16.1.0\AndroidManifest.xml:33:9-35:40
+68            android:name="org.apache.http.legacy"
+68-->[com.google.android.gms:play-services-maps:16.1.0] S:\Users\17.00670-8.IMT-NI.010\.gradle\caches\transforms-2\files-2.1\bb077fd426ce5dafeea7b8a88799f187\jetified-play-services-maps-16.1.0\AndroidManifest.xml:34:13-50
+69            android:required="false" />
+69-->[com.google.android.gms:play-services-maps:16.1.0] S:\Users\17.00670-8.IMT-NI.010\.gradle\caches\transforms-2\files-2.1\bb077fd426ce5dafeea7b8a88799f187\jetified-play-services-maps-16.1.0\AndroidManifest.xml:35:13-37
+70
+71        <activity
+71-->[com.google.android.gms:play-services-base:16.0.1] S:\Users\17.00670-8.IMT-NI.010\.gradle\caches\transforms-2\files-2.1\e563eb570c4e14298a46afe4161cd379\jetified-play-services-base-16.0.1\AndroidManifest.xml:23:9-26:75
+72            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+72-->[com.google.android.gms:play-services-base:16.0.1] S:\Users\17.00670-8.IMT-NI.010\.gradle\caches\transforms-2\files-2.1\e563eb570c4e14298a46afe4161cd379\jetified-play-services-base-16.0.1\AndroidManifest.xml:24:13-79
+73            android:exported="false"
+73-->[com.google.android.gms:play-services-base:16.0.1] S:\Users\17.00670-8.IMT-NI.010\.gradle\caches\transforms-2\files-2.1\e563eb570c4e14298a46afe4161cd379\jetified-play-services-base-16.0.1\AndroidManifest.xml:25:13-37
+74            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+74-->[com.google.android.gms:play-services-base:16.0.1] S:\Users\17.00670-8.IMT-NI.010\.gradle\caches\transforms-2\files-2.1\e563eb570c4e14298a46afe4161cd379\jetified-play-services-base-16.0.1\AndroidManifest.xml:26:13-72
+75
+76        <meta-data
+76-->[com.google.android.gms:play-services-basement:16.0.1] S:\Users\17.00670-8.IMT-NI.010\.gradle\caches\transforms-2\files-2.1\f12d8dbdc987470ebdd0bbd3776ebfb3\jetified-play-services-basement-16.0.1\AndroidManifest.xml:23:9-25:69
+77            android:name="com.google.android.gms.version"
+77-->[com.google.android.gms:play-services-basement:16.0.1] S:\Users\17.00670-8.IMT-NI.010\.gradle\caches\transforms-2\files-2.1\f12d8dbdc987470ebdd0bbd3776ebfb3\jetified-play-services-basement-16.0.1\AndroidManifest.xml:24:13-58
+78            android:value="@integer/google_play_services_version" />
+78-->[com.google.android.gms:play-services-basement:16.0.1] S:\Users\17.00670-8.IMT-NI.010\.gradle\caches\transforms-2\files-2.1\f12d8dbdc987470ebdd0bbd3776ebfb3\jetified-play-services-basement-16.0.1\AndroidManifest.xml:25:13-66
+79    </application>
+80
+81</manifest>

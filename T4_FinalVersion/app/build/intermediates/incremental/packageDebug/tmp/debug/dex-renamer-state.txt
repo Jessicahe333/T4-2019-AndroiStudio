@@ -1,0 +1,7 @@
+#Mon Dec 09 12:52:34 GMT-03:00 2019
+base.0=S\:\\Users\\17.00670-8.IMT-NI.010\\Documents\\T4.v1.4zip\\T4v1.1\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out\\classes.dex
+path.1=classes.dex
+renamed.1=classes2.dex
+path.0=classes.dex
+renamed.0=classes.dex
+base.1=S\:\\Users\\17.00670-8.IMT-NI.010\\Documents\\T4.v1.4zip\\T4v1.1\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out\\classes.dex

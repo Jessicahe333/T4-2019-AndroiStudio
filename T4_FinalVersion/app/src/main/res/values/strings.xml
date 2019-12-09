@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">T4</string>
+    <string name="title_activity_localizacao_maps">Map</string>
+    <string name="title_activity_mpas_test">Map</string>
+</resources>
